@@ -29,15 +29,11 @@ function minimize(button, p) {
 
 let min = document.querySelector(".minimize");
 let p = document.querySelector(".fixed-p");
-
 minimize(min, p);
 
-// Minimize the paragraph by h
 let head = document.querySelector(".card-head");
-minimize(head, p);
-
-// color when hover on the head card
-colorHover(head);
+minimize(head, p); // Minimize the paragraph by h
+colorHover(head); // color when hover on the head card
 
 //---------------------------------------------
 //---------------------------------------------
@@ -47,42 +43,33 @@ colorHover(head);
 let fisrtPopUp = document.querySelector(".questions .fq .first-popup");
 colorHover(fisrtPopUp);
 
-// Minimize the paragraph by button
 let fbtn = document.querySelector(".questions .fq .first-btn");
 let fp = document.querySelector(".questions .first-response");
-minimize(fbtn, fp);
-
-// Minimize the paragraph by head
-minimize(fisrtPopUp, fp);
+minimize(fbtn, fp); // Minimize the paragraph by button
+minimize(fisrtPopUp, fp); // Minimize the paragraph by head
 
 //---------------------------------------------
 //---------------------------------------------
 
-// color when hover on the fisrt popup
+// color when hover on the second popup
 
 let secondPopUp = document.querySelector(".questions .sq .second-popup");
 colorHover(secondPopUp);
 
-// Minimize the paragraph by button
 let sbtn = document.querySelector(".questions .sq .second-btn");
 let sp = document.querySelector(".questions .second-response");
-minimize(sbtn, sp);
-
-// Minimize the paragraph by head
-minimize(secondPopUp, sp);
+minimize(sbtn, sp); // Minimize the paragraph by button
+minimize(secondPopUp, sp); // Minimize the paragraph by head
 
 //---------------------------------------------
 //---------------------------------------------
 
-// color when hover on the fisrt popup
+// color when hover on the third popup
 
 let thirdPopUp = document.querySelector(".questions .tq .third-popup");
 colorHover(thirdPopUp);
 
-// Minimize the paragraph by button
 let tbtn = document.querySelector(".questions .tq .third-btn");
 let tp = document.querySelector(".questions .third-response");
-minimize(tbtn, tp);
-
-// Minimize the paragraph by head
-minimize(thirdPopUp, tp);
+minimize(tbtn, tp); // Minimize the paragraph by button
+minimize(thirdPopUp, tp); // Minimize the paragraph by head
